@@ -120,7 +120,10 @@ $("#addUser").on("click", function() {
 
 	// Store all of the parameters as part of the cookie string
 	console.log("name=" + name + "; email=" + email + "; age=" + age + "; comment=" + comment);
-	document.cookie="name=" + name + "; email=" + email + "; age=" + age + "; comment=" + comment;
+	document.cookie ="name=" + name;
+	document.cookie = "email=" + email;
+	document.cookie = "age=" + age;
+	document.cookie =  "comment=" + comment;
 
 	// Print all the cookies 
 	console.log(document.cookie);
