@@ -118,7 +118,7 @@ $("#addUser").on("click", function() {
 	document.cookie = "name=; expires=Thu, 01 Jan 1970 00:00:00 UTC"; // <------------------
 
 	// Store all of the parameters as part of the cookie string
-	document.cookie="name=" + name + ";email=" + email + ";age=" + age + ";comment=" + comment;
+	document.cookie="name=" + name + "; email=" + email + "; age=" + age + "; comment=" + comment;
 
 	// Print all the cookies 
 	console.log(document.cookie);
